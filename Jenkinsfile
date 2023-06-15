@@ -13,6 +13,7 @@ pipeline {
             steps {
                 sh "docker build -t devopsxengg/passgen:$BUILD_NUMBER ."
             }
+            
         }
         stage ('DockerHub Login') {
             steps {
