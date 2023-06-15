@@ -2,6 +2,8 @@ import string
 import random
 import sys
 
+
+
 if sys.argv[1].isdigit():
     x = string.ascii_lowercase + string.ascii_uppercase + string.digits
     print("The random generated password is: \n")
